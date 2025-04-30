@@ -285,3 +285,112 @@ span {
 .insta {
   font-size: 20px;
 }
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .nav-logo,
+  .place,
+  .nav-search,
+  .hello,
+  .cart {
+    width: 100%;
+    margin: 5px 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-search {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .panel {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+    font-size: 0.95rem;
+  }
+
+  .para {
+    width: 100%;
+    font-size: 0.85rem;
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  .shopclass {
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f3f3;
+  }
+
+  .box {
+    width: 90%;
+    margin: 10px 0;
+    height: auto;
+    padding: 10px;
+  }
+
+  .image1, .image2, .image3, .image4,
+  .image11, .image22, .image33, .image44 {
+    height: 180px;
+  }
+
+  .hero-section {
+    height: 180px;
+    background-position: center;
+  }
+
+  .hero-msg {
+    font-size: 0.75rem;
+    width: 98%;
+    margin-bottom: 10px;
+    padding: 4px;
+  }
+
+  .lastone {
+    flex-direction: column;
+    height: auto;
+    border-bottom: none;
+    text-align: center;
+  }
+
+  .footer {
+    margin: 10px 0;
+  }
+
+  .pakkalast {
+    height: 50px;
+  }
+
+  .end {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .terms, .copy {
+    font-size: 0.65rem;
+    padding: 5px 0;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .nav-search {
+    flex-direction: column;
+    height: auto;
+  }
+  .select, .input, .search-icon {
+    width: 100%;
+    margin: 2px 0;
+  }
+  .box {
+    padding: 5px;
+  }
+}
